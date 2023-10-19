@@ -1,0 +1,145 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.principal{
+	background: red;
+	height: 90vh;
+	/*background: url(../images/pexels-andrea-piacquadio-3771836.jpg)no-repeat center center fixed; 
+ */ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.transparent{
+	background-color: transparent;
+}
+
+
+.vertical-centered-text {
+  -ms-display: flex;
+  display: flex;
+  /* alineacion vertical */
+  align-items: center;
+   /* alineacion horizontal */
+  justify-content: center;
+}
+.h4-god { color: rgb(247, 237, 50);
+
+}
+#home{
+	padding-top: 65px;
+}
+
+.cta{
+	text-align: center;
+}
+.texto-destacado {
+	color: rgb(247, 237, 50);
+	/*-webkit-text-stroke: 0.5px #000000; /* Para navegadores WebKit (Safari, Chrome) */
+	/*text-stroke: 1px #000000; /* Para navegadores no-WebKit */
+  }
+
+  .nosotros{
+	width: 100%;
+	height: 50vh;
+	text-align: center;
+	padding-top: 150px;
+	background-color: rgb(255, 170, 0);
+}
+.nosotros h1{
+	font-weight: 100;
+}
+
+/* Hero.css */
+.principal.vertical-centered-text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2; /* Mayor que el z-index del carrusel (1 por defecto) */
+  }
+  
+  /* Ajusta los estilos para el contenido del div si es necesario */
+  .col-md-8.cta {
+	color: white; /* Cambia el color de texto si es necesario */
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+  }
+  
+  /* Añade estilos para los elementos dentro del contenido del div */
+  .h1 {
+	font-size: 36px; /* Tamaño de fuente personalizado para h1 */
+  }
+  
+  .h4-god {
+	font-size: 24px; /* Tamaño de fuente personalizado para h4 */
+  }
+  
+  .texto-destacado {
+	font-size: 18px; /* Tamaño de fuente personalizado para el texto destacado */
+  }
+  
+  /* Estilos para el botón */
+  .btn.btn-primary.orange {
+	background-color: orange; /* Color de fondo personalizado para el botón */
+	border-color: orange; /* Color del borde personalizado para el botón */
+	font-size: 20px; /* Tamaño de fuente personalizado para el botón */
+	padding: 10px 20px; /* Relleno personalizado para el botón */
+  }
+  
+.alturaimg{
+	max-width: 100vw;
+    max-height: 800px;
+}
+
+
+  
+  .superpuesto-div h1 {
+	font-size: 24px;
+  }
+  
+  .superpuesto-div .h4-god {
+	font-size: 16px;
+	color: rgb(247, 237, 50);
+  }
+  
+  .superpuesto-div .texto-destacado {
+	font-size: 18px;
+	color: rgb(247, 237, 50);
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+  }
+  
+  .superpuesto-div .btn.btn-primary.orange {
+	background-color: orange;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+
+
+
+  .carousel-container {
+	position: relative; /* Posición relativa para permitir superponer elementos */
+  }
+  
+  .carousel-container .carousel {
+	position: static; /* Asegúrate de que el carrusel no tenga posición absoluta o relativa */
+  }
+  
+  .superpuesto-div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+  }
+

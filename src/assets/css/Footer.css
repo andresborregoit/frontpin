@@ -1,0 +1,36 @@
+.social{
+	text-align: center;
+}
+.social img{
+	width: 30%;
+	text-align: center;
+}
+
+footer{
+	background-color: rgb(255, 170, 0);
+	padding-top: 30px;
+}
+footer h1{
+	text-align: center;
+	font-weight: 100;
+}
+
+.bg{
+	background-color: red;
+}
+
+.btnmaximo{
+	width: 60px !important;
+	background-color: aquamarine !important;
+}
+
+.divform{
+	max-width: 750px;
+	max-height: 500px;
+	background-color: azure;
+}
+.containerfooter{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,39 @@
+@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) {
+    /* iPhone only */
+    /* Styles */
+    .off {
+      display: none !important;
+    }
+    .on {
+      display: block !important;
+    }
+    .col-md-2 {
+      width: 100%;
+    }
+    .social img{
+        width: 100%;
+    }
+    .botonera li a {
+      font-size: 13px;
+  }
+  .nosotros{
+      height: 400px;
+      overflow: hidden;
+      padding-top: 15px;
+  }
+  #home{
+      padding-top: 65px;
+  }
+  
+  h1{
+      font-size: 30px;
+      color: blue !important
+      
+      
+  }
+  
+  footer{
+      padding-top: 10px;
+  }
+  
+  }

@@ -1,0 +1,25 @@
+.servicios{
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 50px;
+}
+.servicios img{
+	width: 40%;
+	text-align: center;
+}
+
+.servicios h1{
+	color: #666;
+	font-weight: 100;
+}
+.servicios .images{
+	padding-top: 30px;
+}
+
+.images .col-md-3{
+	padding-top: 20px;
+
+}
+body{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}

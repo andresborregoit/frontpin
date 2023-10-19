@@ -1,0 +1,33 @@
+.logo{
+	width: 40px;
+}
+
+.botonera li{
+	display: inline-block;
+	margin-left: 8px;
+	font-weight: 700;
+	font-size: 20px;
+}
+.botonera li a{
+	color: #666;
+
+}
+.botonera li a:hover{
+	color: black;
+	text-decoration: none;
+}
+.botonera li a {
+    font-size: 13px;
+}
+
+
+header{
+	background-color: rgb(248, 161, 0);
+	padding-top: 15px;
+	padding-bottom: 10px;
+	position: fixed;
+	width: 100%;
+	z-index: 34242;
+    font-family: 'Open Sans', sans-serif;
+}
+
