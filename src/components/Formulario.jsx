@@ -27,7 +27,7 @@ function Formulario(){
     const handleSubmit = (event)=>{
         event.preventDefault()
         axios
-        .post("http://localhost/pinmundoseback/public/index.php/api/registrar-cliente",newUser)
+        .post("backpin-production.up.railway.app/api/registrar-cliente",newUser)
         .then(
             response => {
                 setSuccess(true)
