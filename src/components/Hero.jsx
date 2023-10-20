@@ -3,7 +3,7 @@ import "../assets/css/global.css"
 import "../assets/css/Hero.css"
 import img from "../assets/statics/pexels-andrea-piacquadio-3771836.jpg";
 import img2 from "../assets/statics/living-2.jpg";
-import img3 from "../assets/statics/002-electric-guitar.svg";
+import img3 from "../assets/statics/ropa3.png";
 
 
 
@@ -26,16 +26,18 @@ export default function Hero() {
       <div className="carousel-item">
         <img src={img2} className="d-block w-100 alturaimg" alt="..."/>
         <div className="superpuesto-div">
-          <h2>Título 2</h2>
-          <p>Descripción 2</p>
+          <h2>Fix Up!</h2>
+          <p>Empresa dedicada al bienestar y el confort</p>
+          <p>Acercate y descubramos juntos nuestra nueva linea HOME!</p>
           <a href="#" className="btn btn-primary orange">Descubre nuestros productos</a>
         </div>
       </div>
       <div className="carousel-item">
         <img src={img3} className="d-block w-100 alturaimg" alt="..."/>
         <div className="superpuesto-div">
-          <h2>Título 3</h2>
-          <p>Descripción 3</p>
+          <h2>Fix Up!</h2>
+          <p>Empresa dedicada al bienestar y el confort</p>
+          <p>Encontra tu estilo y comodidad maxima con nuestra linea de indumetaria FLOW"</p>
           <a href="#" className="btn btn-primary orange">Descubre nuestros productos</a>
         </div>
       </div>

@@ -23,3 +23,55 @@
 body{
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.h1black{
+	color: #000000 !important;
+}
+
+.containeracordion{
+	width: 100%;
+	
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#accordionExample{
+	width: 50%;
+	margin-bottom: 25px;
+}
+
+.containerpadreservicios{
+	background-color: #f8ba3e;
+    margin: 0;
+}
+.containeracordion{
+	background-color: #f8ba3e;
+}
+
+.btnservicios{
+	background-color: #ffbe0070;
+}
+
+/*.accordion-button.collapsed {
+	background-color: red;
+  }*/
+
+  .accordion-button {
+    background-color: #ffbe0070; /* Establece aquí el color de fondo deseado */
+    color: #000000; /* Cambia el color del texto para que sea legible */
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color: #ffbe0070; 
+	color: #000000
+
+  }
+
+  .accordion-body{
+	background-color: #ffd10038;
+  }
+
+  .colorblack{
+	color: black;
+  }
+

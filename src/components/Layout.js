@@ -14,7 +14,7 @@ export default function Layout(props) {
     <Hero></Hero>
     {children}
     <Servicios></Servicios>
-    <Formulario></Formulario>
+    
     <Footer></Footer>
     
     

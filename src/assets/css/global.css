@@ -31,9 +31,20 @@
       
       
   }
+ 
   
   footer{
       padding-top: 10px;
   }
   
   }
+
+.contenedor-section{
+  border: 1px solid #bb6a1d;
+    background-color: #f8a100;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 20px
+;
+
+}

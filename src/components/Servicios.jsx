@@ -11,16 +11,17 @@ import img3 from "../assets/statics/003-armchair.svg"
 export default function Servicios() {
   return (
     <>
+    <div className='containerpadreservicios'>
     <div className="container servicios" id="servicios">
 	<div className="row">
 		<div className="col-md-12">
-			<h1>Nuestros Servicios</h1>
+			<h1 className='h1black'>Nuestros Servicios</h1>
 		</div>
 	</div>
 	<div className="row images">
 		<div className="col-md-3">
 			<img src={img4} alt=""></img>
-			<h3>Indumentaria deportiva</h3>
+			<h3>Indumentaria</h3>
 			<p>Tenemos para vos las mejores prendas para que te sientas esplendid@ para hacer tu deporte favorito</p>
 		</div>
 		<div className="col-md-3">
@@ -40,11 +41,12 @@ export default function Servicios() {
 		</div>
 	</div>
 	
-</div>
+</div></div>
+<div className='containeracordion'>
 <div className="accordion" id="accordionExample">
   <div className="accordion-item">
     <h2 className="accordion-header">
-      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      <button className="accordion-button colorblack" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
         ¿Por que nosotros?
       </button>
     </h2>
@@ -56,7 +58,7 @@ export default function Servicios() {
   </div>
   <div class="accordion-item">
     <h2 className="accordion-header">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      <button className="accordion-button colorblack" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
         Accordion Item #2
       </button>
     </h2>
@@ -68,7 +70,7 @@ export default function Servicios() {
   </div>
   <div className="accordion-item">
     <h2 className="accordion-header">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      <button className="accordion-button colorblack" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
         Accordion Item #3
       </button>
     </h2>
@@ -78,6 +80,7 @@ export default function Servicios() {
       </div>
     </div>
   </div>
+</div>
 </div>
 
     

@@ -7,6 +7,7 @@ import InstagramIcon from '../assets/statics/003-instagram-social-network-logo-o
 import img from "../assets/statics/pexels-andrea-piacquadio-3771836.jpg";
 import img2 from "../assets/statics/living-2.jpg";
 import img3 from "../assets/statics/002-electric-guitar.svg";
+import Formulario from './Formulario';
 
 export default function Footer() {
   return (
@@ -18,23 +19,26 @@ export default function Footer() {
           <div className="col-md-12">
             <h1>CONTACTO</h1><br /><br />
           </div>
-
+          <div className="containerFormulario">
+        <Formulario></Formulario></div>
 
         </div>
 
-        <div className="row social">
+        <div className="row social marginrow">
           <div className="col-3"></div>
           <div className="col-2">
-            <a href="mailto:boxerborrego87@gmail.com"><img src={MailIcon} alt="" /></a>
+            <a href="mailto:boxerborrego87@gmail.com"><img src={MailIcon} alt="" className='imgfooter' /></a>
           </div>
           <div className="col-2">
-            <a href="https://www.facebook.com/Boxerman32/" target="_blank"><img src={FacebookIcon} alt="" /></a>
+            <a href="https://www.facebook.com/Boxerman32/" target="_blank"><img src={FacebookIcon} alt="" className='imgfooter' /></a>
           </div>
           <div className="col-2">
-            <a target="_blank" href="https://www.instagram.com/boxerborrego87/"><img src={InstagramIcon} alt="" /></a>
+            <a target="_blank" href="https://www.instagram.com/boxerborrego87/"><img src={InstagramIcon} alt="" className='imgfooter' /></a>
           </div>
         </div>
       </div>
+
+    
 
       
       </footer>
