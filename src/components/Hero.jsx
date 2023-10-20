@@ -41,9 +41,7 @@ export default function Hero() {
           <a href="#" className="btn btn-primary orange">Descubre nuestros productos</a>
         </div>
       </div>
-   {/*   <!-- Agrega elementos similares para otras diapositivas -
-   ¡Conoce nuestros productos de línea deportiva y conoce el confort con nuestra línea home!
-   ->*/}
+
     </div>
     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
       <span className="carousel-control-prev-icon" aria-hidden="true"></span>

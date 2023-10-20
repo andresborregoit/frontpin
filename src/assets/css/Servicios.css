@@ -57,8 +57,8 @@ body{
   }*/
 
   .accordion-button {
-    background-color: #ffbe0070; /* Establece aquí el color de fondo deseado */
-    color: #000000; /* Cambia el color del texto para que sea legible */
+    background-color: #ffbe0070; 
+    color: #000000; 
   }
 
   .accordion-button:not(.collapsed) {

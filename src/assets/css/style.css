@@ -175,7 +175,7 @@ footer h1{
 /* Agrega un borde oscuro alrededor del texto */
 .texto-destacado {
 	color: rgb(247, 237, 50);
-	/*-webkit-text-stroke: 0.5px #000000; /* Para navegadores WebKit (Safari, Chrome) */
+	/*-webkit-text-stroke: 0.5px #000000; 
 	/*text-stroke: 1px #000000; /* Para navegadores no-WebKit */
   }
 .h4-god { color: rgb(247, 237, 50);

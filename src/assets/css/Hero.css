@@ -35,8 +35,8 @@ body{
 }
 .texto-destacado {
 	color: rgb(247, 237, 50);
-	/*-webkit-text-stroke: 0.5px #000000; /* Para navegadores WebKit (Safari, Chrome) */
-	/*text-stroke: 1px #000000; /* Para navegadores no-WebKit */
+	/*-webkit-text-stroke: 0.5px #000000;  */
+	/*text-stroke: 1px #000000;  */
   }
 
   .nosotros{
@@ -57,34 +57,34 @@ body{
 	left: 0;
 	width: 100%;
 	height: 100%;
-	z-index: 2; /* Mayor que el z-index del carrusel (1 por defecto) */
+	z-index: 2; 
   }
   
-  /* Ajusta los estilos para el contenido del div si es necesario */
+  
   .col-md-8.cta {
-	color: white; /* Cambia el color de texto si es necesario */
-	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+	color: white; 
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   }
   
-  /* Añade estilos para los elementos dentro del contenido del div */
+ 
   .h1 {
-	font-size: 36px; /* Tamaño de fuente personalizado para h1 */
+	font-size: 36px; 
   }
   
   .h4-god {
-	font-size: 24px; /* Tamaño de fuente personalizado para h4 */
+	font-size: 24px; 
   }
   
   .texto-destacado {
-	font-size: 18px; /* Tamaño de fuente personalizado para el texto destacado */
+	font-size: 18px; 
   }
   
-  /* Estilos para el botón */
+  
   .btn.btn-primary.orange {
-	background-color: orange; /* Color de fondo personalizado para el botón */
-	border-color: orange; /* Color del borde personalizado para el botón */
-	font-size: 20px; /* Tamaño de fuente personalizado para el botón */
-	padding: 10px 20px; /* Relleno personalizado para el botón */
+	background-color: orange; 
+	border-color: orange; 
+	font-size: 20px; 
+	padding: 10px 20px; 
   }
   
 .alturaimg{
@@ -106,7 +106,7 @@ body{
   .superpuesto-div .texto-destacado {
 	font-size: 18px;
 	color: rgb(247, 237, 50);
-	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   }
   
   .superpuesto-div .btn.btn-primary.orange {
@@ -122,11 +122,11 @@ body{
 
 
   .carousel-container {
-	position: relative; /* Posición relativa para permitir superponer elementos */
+	position: relative; 
   }
   
   .carousel-container .carousel {
-	position: static; /* Asegúrate de que el carrusel no tenga posición absoluta o relativa */
+	position: static; 
   }
   
   .superpuesto-div {
