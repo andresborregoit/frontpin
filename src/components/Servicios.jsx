@@ -59,24 +59,24 @@ export default function Servicios() {
   <div class="accordion-item">
     <h2 className="accordion-header">
       <button className="accordion-button colorblack" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Accordion Item #2
+        Garantia y calidad!
       </button>
     </h2>
     <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <strong>Garantia y calidad</strong> Nuestros productos son los mejores del mercado, nuestra amplia clientela por todo el pais nos respalda, hemos vendido en todas los partidos del pais <code>todos los productos de la linea Home cuentan con 5 años de garantia</code>
       </div>
     </div>
   </div>
   <div className="accordion-item">
     <h2 className="accordion-header">
       <button className="accordion-button colorblack" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Accordion Item #3
+        Envios a todo el pais!
       </button>
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div className="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        Hemos realizado y realizamos envios a todos los puntos del pais desde ushuaia hasta la quiaca, mediante correo Argentino, Andreani, Ñandu del sur, TAS y MD fletes.
       </div>
     </div>
   </div>

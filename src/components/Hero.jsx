@@ -17,7 +17,7 @@ export default function Hero() {
       <div className="carousel-item active">
         <img src={img} className="d-block w-100 alturaimg" alt="..."></img>
         <div className="superpuesto-div">
-          <h2>Fix Up!</h2>
+          <h2>Mix Flow!</h2>
           <p>Empresa dedicada al bienestar y el confort</p>
           <p>¡Conoce nuestros productos de línea deportiva y conoce el confort con nuestra línea home!</p>
           <a href="#" className="btn btn-primary orange">Descubre nuestros productos</a>
@@ -26,7 +26,7 @@ export default function Hero() {
       <div className="carousel-item">
         <img src={img2} className="d-block w-100 alturaimg" alt="..."/>
         <div className="superpuesto-div">
-          <h2>Fix Up!</h2>
+          <h2>Mix Flow!</h2>
           <p>Empresa dedicada al bienestar y el confort</p>
           <p>Acercate y descubramos juntos nuestra nueva linea HOME!</p>
           <a href="#" className="btn btn-primary orange">Descubre nuestros productos</a>
@@ -35,7 +35,7 @@ export default function Hero() {
       <div className="carousel-item">
         <img src={img3} className="d-block w-100 alturaimg" alt="..."/>
         <div className="superpuesto-div">
-          <h2>Fix Up!</h2>
+          <h2>Mix Flow!</h2>
           <p>Empresa dedicada al bienestar y el confort</p>
           <p>Encontra tu estilo y comodidad maxima con nuestra linea de indumetaria FLOW"</p>
           <a href="#" className="btn btn-primary orange">Descubre nuestros productos</a>
